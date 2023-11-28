@@ -1,0 +1,245 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* ----------- 리셋 코드 ----------- */
+
+#line{
+    width: 100%;
+    padding-top: 6px;
+    background-image: url(https://www.crown.co.kr/images/bg_top.gif);
+
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 48px;
+   
+    padding: 16px 32px;
+
+    width: 1220px;
+    margin: 0 auto;
+}
+
+header > h1{
+    width: 220px;
+}
+
+#cate1{
+    display: flex;
+    
+
+    font-size: 19px;
+    font-weight: bold;
+
+    cursor: pointer;
+}
+
+#cate1 > li{
+    padding: 0px 22px;
+}
+
+#cate1 > li:hover{
+    color: #f08a1c;
+}
+
+/*-----자바 스크립트--------*/
+#cate1items > div{
+    width: 100%;
+	height: 0px;
+    line-height: 50px;
+	background-color: rgb(69, 190, 220);
+    transition-duration: 0.2s;
+    overflow: hidden;
+    /* display: none; */
+
+    position: absolute;
+    z-index: 1;
+}
+
+#cate1items > div > div{
+    display: flex;
+    justify-content: center;
+    gap: 48px;
+}
+
+#cate1items > div > div> p{
+    font-size: 14px;
+}
+
+main{
+    position: relative;
+}
+
+/*-----자바 스크립트 끝-------*/
+
+#cate2{
+    display: flex;
+    align-items: center;
+
+    font-size: 12px;
+    font-weight: bold;
+    color: #757575;
+}
+
+#cate2 > li:first-child{
+    padding: 0px 16px;
+    border-right: 1px solid #bababa;
+}
+
+#cate2 > li:nth-child(2){
+    padding: 0px 16px;
+}
+
+#cate2 > li > img{
+    width: 43px;
+    height: 43px;
+    border-radius: 4px;
+    border: 1px solid #bababa;
+}
+
+
+/*-----------메인---------------*/
+
+#bc > img{
+    width: 100%;
+    height: 1000px;
+}
+
+
+/*-------------푸터------------*/
+footer{
+    background-color: #f8f8f8;
+    padding-bottom: 16px;
+}
+
+#footer1{
+    border-top: 1px solid #e9e9e9;
+    border-bottom: 1px solid #e9e9e9;
+}
+
+#footer1-1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    width: 1220px;
+    margin: 0 auto;
+}
+
+#footer1-1 > ul{
+    display: flex;
+
+    color: #8d8d8d;
+    font-size: 13px;
+
+}
+
+#footer1-1 > ul > li:not(:last-child){
+    padding: 0px 8px;
+
+    border-right: 1px solid #c2c2c2;
+
+}
+
+#footer1-1 > ul > li:last-child{
+    padding: 0px 8px;
+}
+
+#footer1-1 > ul > li:nth-child(2){
+    color: #f08a1c;
+}
+
+#footer1-1 > div{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+
+}
+
+#footer1-1 > div > p > img:last-child{
+    border-left: 1px solid #e9e9e9;
+    border-right: 1px solid #e9e9e9;
+}
+
+#footer2{
+    display: flex;
+
+
+    width: 1220px;
+    margin: 0 auto;
+
+    padding-top: 35px;
+}
+
+#footer2 > img{
+    width: 95px;
+    height: 21px;
+}
+
+#footer2 > span{
+    font-size: 12px;
+    color: #666666;
+    line-height: 18px;
+   
+    padding: 0px 414px 0px 60px;
+}
+
+#footer2 > p:last-child{
+    width: 182px;
+    height: 25px;
+    background-image: url(https://www.crown.co.kr/images/btn_family.gif);
+}
+
+#footer3{
+    height: 58px;
+    background-image: url(https://www.crown.co.kr/images/icon_norton.gif);
+    background-position: right top;
+    background-repeat: no-repeat;
+
+    width: 1220px;
+    margin: 0 auto;
+
+
+}
